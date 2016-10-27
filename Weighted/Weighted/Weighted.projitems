@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>8b152d1f-7057-424c-a524-b3d9e1435a35</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Weighted</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Core.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Gui.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceAddon-3.0\AceAddon-3.0.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceConsole-3.0\AceConsole-3.0.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceDB-3.0\AceDB-3.0.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\AceGUI-3.0.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIContainer-BlizOptionsGroup.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIContainer-DropDownGroup.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIContainer-Frame.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIContainer-InlineGroup.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIContainer-ScrollFrame.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIContainer-SimpleGroup.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIContainer-TabGroup.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIContainer-TreeGroup.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIContainer-Window.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-Button.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-Heading.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-Icon.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceHook-3.0\AceHook-3.0.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Libs\LibStub\LibStub.lua" />
+    <None Include="$(MSBuildThisFileDirectory)Weighted\Weighted.toc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Weighted\Gui.xml" />
+    <Content Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceAddon-3.0\AceAddon-3.0.xml" />
+    <Content Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceConsole-3.0\AceConsole-3.0.xml" />
+    <Content Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceDB-3.0\AceDB-3.0.xml" />
+    <Content Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceGUI-3.0\AceGUI-3.0.xml" />
+    <Content Include="$(MSBuildThisFileDirectory)Weighted\Libs\AceHook-3.0\AceHook-3.0.xml" />
+    <Content Include="$(MSBuildThisFileDirectory)Weighted\References.xml" />
+  </ItemGroup>
+</Project>

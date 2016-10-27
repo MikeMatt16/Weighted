@@ -1,0 +1,11 @@
+## Interface: 70100
+## Author: Michael Mattera
+## Version: 1.1.1
+## Title: |cffb048f8Weighted|r
+## Notes: Use character-specific statistics weights to determine gear upgrades.
+## SavedVariables: WeightedDB
+## SavedVariablesPerCharacter: WeightedCharDB
+
+References.xml
+Core.lua
+Gui.xml
